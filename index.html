@@ -20,8 +20,8 @@
             <h3 class="text-[#006747] text-xl font-black">Emergency <br>Service</h3>
         </div>
         <div>
-            <button class="py-[12px] px-[20px] bg-[#41ff6b1a] rounded-[50px] text-[20px] font-black">0 <img class="w-[30px] inline ml-[10px]" src="assets/heart.png" alt=""></button>
-            <button class="py-[12px] px-[20px] mx-[20px] bg-[#41ff6b1a] rounded-[50px] text-[20px] font-black">100 <img class="w-[24px] inline ml-[10px]" src="assets/coin.png" alt=""></button>
+            <button class="py-[12px] px-[20px] bg-[#41ff6b1a] rounded-[50px] text-[20px] font-black"><span id="heart-counter">0</span> <img class="w-[30px] inline ml-[10px]" src="assets/heart.png" alt=""></button>
+            <button class="py-[12px] px-[20px] mx-[20px] bg-[#41ff6b1a] rounded-[50px] text-[20px] font-black"><span id="coin-counter">100</span><img class="w-[24px] inline ml-[10px]" src="assets/coin.png" alt=""></button>
             <button class="py-[14px] px-[36px] bg-[#00A63E] text-white rounded-[50px] text-[20px] font-black">2 Copy</button>
             
         </div>
@@ -48,7 +48,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">Police</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full  call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -62,7 +62,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">National</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -76,7 +76,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">Fire</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -90,7 +90,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">RAB</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -104,7 +104,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">Women</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -118,7 +118,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">Anti-Drug</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -132,7 +132,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">Consumer</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -146,7 +146,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">DMental Health</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             <div class="bg-white p-[32px] rounded-[12px]">
@@ -160,7 +160,7 @@
                 <div class="py-[6px] px-[16px] bg-[#F2F2F2] rounded-3xl inline-block mb-[24px]"><p class="text-xl">Health</p></div>
                 <div class="flex gap-[10px]">
                     <button class="p-4 text-[16px] rounded-[8px] border border-[#D4D6D5] w-full"><i class="fa fa-copy mr-[10px]"></i>Copy</button>
-                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full"><i class="fa fa-phone mr-[10px]"></i>Call</button>
+                    <button class="p-4 text-white text-[16px] rounded-[8px] bg-[#00A63E] w-full call-btn"><i class="fa fa-phone mr-[10px]"></i>Call</button>
 		        </div>
             </div>
             
@@ -168,14 +168,22 @@
             
         
         <div class="bg-white p-[24px] rounded-[12px]">
-            <div class="flex justify-between items-center ">
+            <div class="flex justify-between items-center">
                 <h3 class="text-[#111111] text-[20px] font-medium"><i class="fa fa-clock-o"></i> Call History</h3>
                 <button class="py-[14px] px-[36px] bg-[#00A63E] text-white rounded-[50px] text-[20px] font-black">Clear</button>
+            </div>
+            <div class="flex justify-between items-center bg-[#FAFAFA] p-4 rounded-[8px] my-2">
+                <div>
+                    <h3 class="text-[18px] font-semibold">National Emergency Number</h3>
+                    <p class="text-[18px] ">999</p>
+                </div>
+                <p class="text-[18px] ">10:35 AM</p>
             </div>
         </div>
 
        
 
-    
+    <script src="./index.js"></script>
+
 </body>
 </html>
