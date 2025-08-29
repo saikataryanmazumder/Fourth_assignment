@@ -13,7 +13,7 @@ Finally, insert it using appendChild().
 
 3. What is Event Bubbling and how does it work?
 
-Event bubbling means when you click an element, the event runs on that element, then moves up to its parent, grandparent, and so on — all the way to the body tag.  It’s the browser’s way of letting parent elements know something happened inside them.
+Event bubbling means when you click an element, the event runs on that element, then moves up to its parent, grandparent, and so on all the way to the body tag.  It’s the browser’s way of letting parent elements know something happened inside them.
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 

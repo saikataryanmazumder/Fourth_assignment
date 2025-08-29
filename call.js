@@ -34,7 +34,7 @@
 
       // Saving history
 
-      callHistory.push({
+      callHistory.unshift({
         name: name,
         number: number,
         time: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
