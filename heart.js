@@ -11,15 +11,5 @@
     });
   }
 
-  let coinCount = 100;
 
-  const coinCounter = document.getElementById("coin-counter");
-
-  const callBtns = document.getElementsByClassName("call-btn");
-
-  for(const callBtn of callBtns){
-    callBtn.addEventListener("click",function(){
-        alert("clicked")
-    })
-  }
 
